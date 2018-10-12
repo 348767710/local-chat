@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "mine": {
+      "username": "",
+      "id": "",
+      "status": "online",
+      "sign": "在深邃的编码世界，做一枚轻盈的纸飞机",
+      "avatar": "http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg"
+    },
+    "friend": [
+
+    ],
+    "group": [
+      {
+        "groupname": "golang",
+        "id": 1,
+        "avatar": "/chat/json/golang.jpeg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>LayIM 3.x PC版本地演示</title>
+  <link rel="stylesheet" href="/chat/dist/css/layui.css">
+  <style>
+    html{background-color: #333;}
+  </style>
+</head>
+
+<body>
+  <script src="/chat/dist/layui.js"></script>
+  <script>
+    layui.use('layim', function(layim){
+      //先来个客服模式压压精
+      layim.config({
+        brief: true //是否简约模式（如果true则不显示主面板）
+      }).chat({
+        name: 'LayIM畅聊'
+        ,type: 'group' //群组类型
+        ,avatar: 'http://tp2.sinaimg.cn/5488749285/50/5719808192/1'
+        ,id: 10000000 //定义唯一的id方便你处理信息
+        ,members: 123 //成员数，不好获取的话，可以设置为0
+      });
+    });
+  </script>
+</body>
+
+</html>
